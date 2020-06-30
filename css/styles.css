@@ -127,6 +127,7 @@ ul{
    float:left;
    width:120px;
    height:50px;
+   margin-right:20px;
  }
  .twitter-btn{
    display:inline-block;
