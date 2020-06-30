@@ -1,0 +1,281 @@
+
+
+header{
+  widows: 100%;
+  height:60px;
+  border-bottom:1px solid #000;
+}
+
+.header-logo{
+  float:left;
+  margin:10px 0 0 30px;
+}
+
+.header-right{
+  float:right;
+  margin-right:20px;
+}
+
+
+.nav_toggle {
+  display: block;
+  position: relative;
+  width: 1.75rem;
+  height: 1.5rem;
+  cursor: pointer;
+  margin-top:10px;
+}
+.nav_toggle i {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  transition: transform .5s, opacity .5s;
+}
+.nav_toggle i:nth-child(1) {
+  top: 0;
+}
+.nav_toggle i:nth-child(2) {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.nav_toggle i:nth-child(3) {
+  bottom: 0;
+}
+.nav_toggle.show i:nth-child(1) {
+  transform: translateY(10px) rotate(-45deg);
+}
+.nav_toggle.show i:nth-child(2) {
+  opacity: 0;
+}
+.nav_toggle.show i:nth-child(3) {
+  transform: translateY(-12px) rotate(45deg);
+}
+.nav {
+  position: fixed;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s, visibility .5s;
+  z-index: 1;
+  background-color: white;
+}
+
+
+
+.nav.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+ul{
+  padding-left:0;
+}
+
+.slide{
+  height:450px;
+}
+
+.slick-slide{
+  height:450px;
+}
+
+.slider ul{
+  width:100%;
+  margin:0 auto;
+  padding-left:0;
+}
+
+.slider li{
+  width:100%;
+}
+
+.slider img{
+  width:100%;
+  height:400px;
+}
+
+
+.sns-btn{
+  width:100%;
+  height:100px;
+}
+ 
+ .insta-item{
+   float:left;
+   width:120px;
+   height:50px;
+ }
+ 
+ .insta-btn{
+ display:inline-block;
+ padding:2px 24px;
+ background-color: orchid;
+ opacity: 0.7;
+ color:white;
+ text-decoration: none;
+ }
+ .twitter-item{
+   float:left;
+   width:120px;
+   height:50px;
+ }
+ .twitter-btn{
+   display:inline-block;
+   padding:2px 24px;
+   background-color:#55acee ;
+   opacity: 0.7;
+   color:white;
+   text-decoration: none;
+   }
+ 
+ .facebook-item{
+   float:left;
+   width:140px;
+   height:50px;
+ }
+ 
+   .facebook-btn{
+     display:inline-block;
+     padding:2px 24px;
+     background-color: #3b5998;
+     opacity: 0.7;
+     color:white;
+     text-decoration: none;
+     }
+ 
+     .fab{
+       margin-right:5px;
+     }
+
+     .text h3{
+       margin:0 30px;
+       margin-top: 150px;
+       border-bottom: 1px solid rgb(151, 151, 151);
+     }
+
+     .concept-item{
+       margin-top:100px;
+       display: flex;
+       justify-content: space-around;
+     }
+     
+   .concept-item li{
+     width: 125px;
+     height:125px;
+     background: green;
+     opacity: 0.7;
+     color:white;
+     border-radius: 50%;
+    position: relative;
+
+   }
+
+   .concept-item li span{
+    position: absolute;
+    top:50%;
+    left:10%;
+    right:10%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size:15px;
+   }
+
+   .step{
+     margin-top:200px ;
+   }
+
+   .step > h3{
+     border-bottom:1px solid rgb(151, 151, 151);
+     margin:0 30px;
+     margin-top: 150px;
+   }
+
+   .step-item{
+     width:80%;
+     margin:0 auto;
+   }
+
+   .step-item h4{
+     margin:30px 0 30px;
+   }
+
+   .step-item img{
+     opacity: 0.8;
+   }
+
+   .introduce{
+     display:flex;
+     justify-content: space-around;
+   }
+
+   .intro-text h3{
+     margin:30px 0;
+     text-align: center;
+     border-bottom: 2px solid #55acee;
+   }
+
+   .intro-text p{
+     text-align: center;
+     font-size: 18px;
+   }
+
+   .join{
+     margin-top: 100px;
+   }
+
+
+   .inquiry-text{
+     margin:100px 30px 25px;
+     border-bottom: 1px solid rgb(151, 151, 151);
+   }
+
+
+   .inquiry-form{
+    background-color: rgba(0, 89, 255, 0.2);
+    width:80%;
+    height:350px;
+    margin:0 auto;
+   }
+
+   .inquiry-btn{
+     margin:0 10%;
+   }
+
+   .inquiry-send-btn{
+     float:right;
+     margin:20px 40px 0 0;
+   }
+
+
+
+   footer{
+     width:100%;
+     height:50px;
+     border-top: 1px solid #000;
+     margin-top:100px;
+   }
+
+   .footer-left{
+     float: left;
+     margin-top: 10px;
+     margin-left: 50px;
+   }
+
+   .footer-right{
+     float:right;
+     margin-top: 20px;
+     margin-right: 60px;
+   }
+
+   .footer-right p{
+     font-size:12px;
+   }
